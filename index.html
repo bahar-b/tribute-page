@@ -11,7 +11,19 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&family=Plus+Jakarta+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
     <div id="main">
@@ -23,12 +35,18 @@
         </p>
       </div>
       <figure id="img-div">
-        <img src="/images/nietzsche.jpg" id="img" alt="Nietzsche's picture" />
+        <img
+          src="/images/nietzsche.jpg"
+          id="img"
+          class="img-fluid"
+          alt="Nietzsche's picture"
+        />
         <figcaption id="img-caption">
           <p>Photo of Nietzsche by Gustav-Adolf Schultze, 1882</p>
         </figcaption>
       </figure>
       <div id="tribute-info">
+        <h3>Here's a time line of Friedrich Nietzsche's life:</h3>
         <ul>
           <li>
             <strong>1844</strong> - October 15. Friedrich Wilhelm Nietzsche born
@@ -173,25 +191,27 @@
           </li>
           <li><strong>1900</strong> - August 25. Nietzsche dies.</li>
         </ul>
-        <div class="quote">
-          <p>
-            "The higher we soar, the smaller we appear to those who cannot fly."
-          </p>
-          <p>
-            Friedrich Nietzsche
-          </p>
-        </div>
+        <blockquote>
+          <cite>
+            <p>
+              "The higher we soar, the smaller we appear to those who cannot
+              fly."
+            </p>
+            <p>Friedrich Nietzsche</p>
+          </cite>
+        </blockquote>
         <div class="link">
-          <p>
+          <h3>
             If you have time, you should read more about this incredible human
             being on his
             <a
               href="https://en.wikipedia.org/wiki/Friedrich_Nietzsche"
               id="tribute-link"
+              class="text-decoration-none"
               target="-blank"
               >Wikipedia entry</a
             >.
-          </p>
+          </h3>
         </div>
       </div>
     </div>
